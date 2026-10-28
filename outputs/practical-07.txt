@@ -1,0 +1,5 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+Invalid account errors: [must be > 0]
+Valid account errors:   []

@@ -1,0 +1,5 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+Started threads: Worker-1 .. Worker-10
+Final synchronized balance: 10000

@@ -1,0 +1,7 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build MiniBank
+AC0001 (SavingsAccount) -> Interest Rate: 4.0%
+AC0002 (CurrentAccount) -> Interest Rate: 0.0%
+   Overdraft Limit: Rs. 5000
+AC0003 (FixedDepositAccount) -> Interest Rate: 7.0%

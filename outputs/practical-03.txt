@@ -1,0 +1,7 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build MiniBank
+AC0001 | Diya | 4000
+a1.equals(a2): true
+a1 instanceof Account: true
+Cloned Customer: Diya (MG Road, Anand - 388001)

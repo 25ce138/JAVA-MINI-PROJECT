@@ -1,0 +1,8 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+Lookup AC0002: AC0002 | Arjun | 2000
+Accounts sorted by balance (descending):
+  AC0003 | Neel | 9000
+  AC0001 | Diya | 5000
+  AC0002 | Arjun | 2000

@@ -1,0 +1,9 @@
+=== MiniBank Student Bank ===
+Loaded accounts: 2
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: AC0001 | Diya | 5500
+AC0002 | Arjun | 3000
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: Accounts saved. Goodbye!

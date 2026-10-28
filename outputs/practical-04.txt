@@ -1,0 +1,17 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build MiniBank
+isValidMobile('9876543210'): true
+isValidMobile('12345'): false
+isValidPan('ABCDE1234F'): true
+isValidIfsc('SBIN0001234'): true
+Parsed: Command[type=DEPOSIT, accountNumber=AC0001, amount=500]
+--- Account Statement ---
+Account : AC0001
+Owner   : Diya
+Balance : Rs. 5500
+Email valid: true
+--- Account Statement ---
+Account : AC0001
+Owner   : Diya
+Balance : Rs. 4500

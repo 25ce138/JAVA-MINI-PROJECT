@@ -1,0 +1,7 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+Anonymous Rule allow(3000): true
+Lambda Rule allow(3000):    true
+Yearly Interest: Rs. 400.0
+Mobile valid check via static import: true

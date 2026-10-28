@@ -1,0 +1,38 @@
+Scripted demo: open two accounts, deposit, reject overdraft, transfer, list, statement, save.
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+=== MiniBank Student Bank ===
+Loaded accounts: 0
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: Account ID: Owner: Mobile: Opening balance: [Audit] OPEN_ACCOUNT
+Account opened.
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: Account ID: Owner: Mobile: Opening balance: [Audit] OPEN_ACCOUNT
+Account opened.
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: Account ID: Amount: [Audit] DEPOSIT
+Deposit successful.
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: Account ID: Amount: Error: Withdrawal failed: short by 3500
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: From account: To account: Amount: [Audit] TRANSFER
+Transfer successful.
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: AC0001 | Diya | 5500
+AC0002 | Arjun | 3000
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: Account ID: --- Account Statement ---
+Account : AC0001
+Owner   : Diya
+Balance : Rs. 5500
+1 Open  2 Deposit  3 Withdraw  4 Transfer
+5 Statement  6 List accounts  0 Save and exit
+Choice: Accounts saved. Goodbye!

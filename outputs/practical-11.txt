@@ -1,0 +1,9 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+Reloaded: [AC0001 | Diya | 5500, AC0002 | Arjun | 2800]
+=== End-of-Day Summary Report ===
+File: tx_2026_10_21.log (39 bytes)
+Total Deposits    : Rs. 500
+Total Withdrawals : Rs. 200
+Net Change        : Rs. 300

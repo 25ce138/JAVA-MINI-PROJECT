@@ -1,0 +1,7 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+Consumed: DEPOSIT AC0001 100
+Ordered transfers finished without deadlock.
+Account AC0001 Balance: 4500
+Account AC0002 Balance: 5500

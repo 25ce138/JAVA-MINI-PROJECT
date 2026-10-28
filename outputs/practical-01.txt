@@ -1,0 +1,23 @@
+Scripted input: 1, 2, 3, 4, 9, 5
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build MiniBank
+=== MiniBank Student Bank (Campus Branch) ===
+
+1. OPEN_ACCOUNT  2. DEPOSIT  3. WITHDRAW  4. TRANSFER  5. EXIT
+Select option: Open Account — to be implemented in a later lab
+
+1. OPEN_ACCOUNT  2. DEPOSIT  3. WITHDRAW  4. TRANSFER  5. EXIT
+Select option: Deposit — to be implemented in a later lab
+
+1. OPEN_ACCOUNT  2. DEPOSIT  3. WITHDRAW  4. TRANSFER  5. EXIT
+Select option: Withdraw — to be implemented in a later lab
+
+1. OPEN_ACCOUNT  2. DEPOSIT  3. WITHDRAW  4. TRANSFER  5. EXIT
+Select option: Transfer — to be implemented in a later lab
+
+1. OPEN_ACCOUNT  2. DEPOSIT  3. WITHDRAW  4. TRANSFER  5. EXIT
+Select option: Invalid option. Please try again.
+
+1. OPEN_ACCOUNT  2. DEPOSIT  3. WITHDRAW  4. TRANSFER  5. EXIT
+Select option: Thank you for banking with MiniBank. Goodbye!

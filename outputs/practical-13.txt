@@ -1,0 +1,9 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+findById('AC0002'): AC0002 | Arjun | 8000
+All Accounts: [AC0001 | Diya | 5000, AC0003 | Neel | 11000, AC0002 | Arjun | 8000]
+Customer repository: CUST101 (Diya)
+Deleted AC0003: true
+Average Balance: Rs. 8000.0
+Customer findById('CUST101'): CUST101 (Diya)

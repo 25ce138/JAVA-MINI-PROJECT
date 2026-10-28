@@ -1,0 +1,9 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build MiniBank
+AC0001 after deposit(2000): 7000
+AC0001 | Diya | 7000
+AC0002 | Arjun | 3000
+AC0003 | Neel | 0
+Withdraw 3000 (true) -> Balance: 4000
+Withdraw 10000 (false) -> Balance: 4000

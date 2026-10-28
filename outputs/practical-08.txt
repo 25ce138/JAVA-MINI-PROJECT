@@ -1,0 +1,7 @@
+$ javac -d build @sources.txt
+Compilation successful
+$ java -cp build service.MiniBank
+[AuditResource] Opened
+[AuditResource] Closed
+Withdrawal failed: short by 4000 | Balance remains: 1000
+Finally block executed.
